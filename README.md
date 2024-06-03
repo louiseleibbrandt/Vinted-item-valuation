@@ -1,4 +1,4 @@
-# Vinted Price Scraper
+# Vinted Pricer
 
 This tool allows you to scrape prices from Vinted (www.vinted.nl) based on a search query and item condition, and calculate the average price of the items found. The tool provides a simple GUI for entering the search query and starting the scraping process.
 
@@ -10,13 +10,6 @@ This tool allows you to scrape prices from Vinted (www.vinted.nl) based on a sea
 - Calculate the average price of the items found.
 - Simple GUI for ease of use.
 
-## Requirements
-
-- Python 3.x
-- `selenium`
-- `webdriver-manager`
-- `beautifulsoup4`
-- `tkinter` (usually included with Python installations)
 
 ## Installation
 
