@@ -20,8 +20,8 @@ This tool allows you to scrape prices from Vinted based on a search query and ca
 
 1. Clone the repository or download the scripts.
     ```bash
-    git clone <repository-url>
-    cd vinted-price-scraper
+    git clone https://github.com/louiseleibbrandt/Vinted-pricer.git
+    cd vinted-pricer
     ```
 
 2. Install the required dependencies.
@@ -35,7 +35,7 @@ This tool allows you to scrape prices from Vinted based on a search query and ca
 
 1. Run the `main.py` script to launch the GUI application.
     ```bash
-    python main.py
+    python scripts/main.py
     ```
 
 2. Enter the search query in the provided input field.
@@ -44,31 +44,6 @@ This tool allows you to scrape prices from Vinted based on a search query and ca
 
 4. The tool will display the average price of the items found based on your search query.
 
-## File Structure
-
-- `scraper.py`: Contains the web scraping and calculation logic.
-- `gui.py`: Contains the GUI setup and interaction logic.
-- `main.py`: The entry point for the application.
-
-## scraper.py
-
-Contains functions to:
-- Fetch search results from Vinted.
-- Extract prices from the HTML content.
-- Calculate the average price.
-- Coordinate the scraping process.
-
-## gui.py
-
-Contains:
-- Setup for the `tkinter` GUI.
-- Input fields for the search query.
-- Button to start the scraping process.
-- Label to display the result.
-
-## main.py
-
-- The entry point for the application. Runs the GUI.
 
 ## Example
 
