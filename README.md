@@ -2,6 +2,8 @@
 
 This tool allows you to scrape prices from Vinted based on a search query and calculate the average price of the items found. The tool provides a simple graphical user interface (GUI) for entering the search query and starting the scraping process.
 
+![Screenshot of the GUI](images/GUI_example.png)
+
 ## Features
 
 - Fetch prices from Vinted based on a search query.
@@ -45,8 +47,7 @@ This tool allows you to scrape prices from Vinted based on a search query and ca
 4. The tool will display the average price of the items found based on your search query.
 
 
-## Example
 
-![Screenshot of the GUI](images/GUI_example.png)
+
 
 
