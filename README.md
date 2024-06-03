@@ -6,7 +6,7 @@ This tool allows you to scrape prices from Vinted (www.vinted.nl) based on a sea
 
 ## Features
 
-- Fetch prices from Vinted based on a search query.
+- Fetch prices from Vinted based on a search query and item condition.
 - Calculate the average price of the items found.
 - Simple GUI for ease of use.
 
@@ -33,7 +33,7 @@ This tool allows you to scrape prices from Vinted (www.vinted.nl) based on a sea
     python scripts/main.py
     ```
 
-2. Enter the search query in the provided input field.
+2. Enter the search query and item condition in the provided input fields.
 
 3. Click the "Start Scraping" button. If the number of items span multiple pages, each page containing items will be loaded and scraped sequentially.
 
