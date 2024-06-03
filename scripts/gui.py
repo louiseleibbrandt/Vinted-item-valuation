@@ -16,7 +16,7 @@ root.title("Vinted Pricer")
 tk.Label(root, text="Search Query:").grid(row=0, column=0, padx=10, pady=10)
 entry_query = tk.Entry(root, width=50)
 entry_query.grid(row=0, column=1, padx=10, pady=10)
-entry_query.insert(0, "Gucci Jackie Black")  # Set the default value
+entry_query.insert(0, "Gucci Jackie Bag")  # Set the default value
 
 # Condition input
 tk.Label(root, text="Condition:").grid(row=1, column=0, padx=10, pady=10)
@@ -28,7 +28,7 @@ condition_menu.grid(row=1, column=1, padx=10, pady=10)
 
 # Start button
 start_button = tk.Button(root, text="Start Scraping", command=start_scraping)
-start_button.grid(row=2, column=0, columnspan=2, pady=10)
+start_button.grid(row=2, column=1, padx=10, pady=10)
 
 # Result label
 result_label = tk.Label(root, text="", wraplength=400)
